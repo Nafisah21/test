@@ -1,0 +1,51 @@
+body{
+    background-color:rgb(242, 248, 242);
+    padding:0px;
+    margin: 0px;
+}
+#container{
+    display: flex;
+}
+ #con{
+  display: flex;
+  padding:150px 20px 20px 200px;
+}
+.tain{
+    display:flex;
+    flex-direction: column;
+}
+button{
+    background-color:#007D53;
+    color:white ;
+    border: none;
+    height:50px ;
+    width:350px ;
+    font-size:20px;
+    margin-left:170px ;
+}
+h4{
+   color:black; 
+    font-size:20px ; 
+    font-weight: bold;
+    margin-left: 120px;
+    font-family: sans-serif;
+  }
+  .applic{
+    color:red ;
+    font-size:30px ;
+    font-weight: bold;
+    margin:350px 20px 0px 300px ;
+  }
+
+
+
+
+  @keyframes zoomIn{
+    0% {
+      transform: scale(1); /* Initial scale */
+    }
+    100% {
+      transform: scale(1); /* Return to the original scale */
+    }
+  /* Apply the animation to the .mtt img class */
+  }
